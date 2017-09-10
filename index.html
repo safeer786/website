@@ -14,38 +14,57 @@
 
    </HEAD>
 <BODY>
-<?php
-echo("hahahahah"); 
-print("Hallo Welt");
-$hostname="jdbc:oracle:thin:@localhost:1521:xe";
-$username="system";
-$password="admin";
-$dbname="library";
-$usertable="test";
-$yourfield = "name";
- 
-//Connect to the database
-$connection = mysql_connect($hostname, $username, $password);
-mysql_select_db($dbname, $connection);
-echo("hahahahah");
-//Setup our query
-$query = "SELECT * FROM $usertable";
- 
-//Run the Query
-$result = mysql_query($query);
- 
-//If the query returned results, loop through
-// each result
-if($result)
-{
-  while($row = mysql_fetch_array($result))
-  {
-    $name = $row["$yourfield"];
-    echo "Name: " . $name; 
 
-  }
-}
- 
-?>
+<header>
+<div id="h">
+	<h1 align="middle">Welcome To My Portfolio !!!</h1>
+</div>
+</header>
+<section class="jumbotron">
+	  <img src="technology.jpg" id="tech">
+	  <h2>Here you can find all the projects I have done Enjoy!</h2>
+	  <div class="languages row">
+    		<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'> <a class='btn btn-default btn-lg' href="#lang-java">JAVA</a></div>
+    		<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'> <a class='btn btn-default btn-lg' href="#lang-python">PYTHON</a></div>
+    		<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'> <a class='btn btn-default btn-lg' href="#lang-cpp">C++</a></div>
+    		<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'> <a class='btn btn-default btn-lg' href="#lang-web">WEB-DEVELOPMENT</a></div>
+  	  </div>
+  	  <div class="projects">
+  	  <div class="java" id='lang-java'>
+  	    <h1>JAVA</h1>
+  	  	<a href="#">Typing Maniac Clone</a>
+  	  	<br>
+  	  	<a href="#">NotePad</a>
+  	  	<br>
+  	  </div>
+  	  <div class="python" id='lang-python'>
+  	  	<h1>PYTHON</h1>
+  	  	<a href="#">Automatic Literary Genre Identification</a>
+  	  	<br>
+  	  	<a href="#">Native Language Identifier</a>
+  	  	<br>
+  	  </div>
+  	  <div class="cpp" id='lang-cpp'>
+  	  	<h1>C++</h1>
+  	  	<a href="#">Snakes And Ladder</a>
+  	  	<br>
+  	  	<a href="#">NotePad</a>
+  	  	<br>
+  	  </div>
+  	  <div class="web" id='lang-web'>
+  	  	<h1>WEB</h1>
+  	  	<a herf="#">BootStrap</a>
+  	  </div>
+  	  </div>
+</section>
+<footer>
+	<div id="f">
+		<h1 align="middle">Bye</h1>
+	</div>
+</footer>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+
+
 </BODY>
-</HTML>
+</html>
