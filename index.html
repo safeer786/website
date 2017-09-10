@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+   <HEAD>
+
+   	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="style.css" type="text/css" rel="stylesheet">
+
+      <TITLE>
+         Safeer Mian Portfolio
+      </TITLE>
+	<script type='text/javascript'>
+	 function activemenu(classname)
+	 {
+		$('#home').hide();
+		$('#about-me').hide();
+		$('#portfolio').hide();
+		$('#'+classname).show();
+		
+		$('#li-home').removeClass();
+		$('#li-about-me').removeClass();
+		$('#li-portfolio').removeClass();
+		$('#li-'+classname).addClass('active');
+			
+	}
+	</script>
+   </HEAD>
+<BODY>
+
+<header>
+<div id="h" style='height:15%'>
+	<nav class="navbar navbar-default" style='background-color:transparent;border-color:transparent;'>
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="#" style='font-size:3em;color:white;'>Safeer Ahmed Mian</a>
+		</div>
+		<ul class="nav navbar-nav pull-right">
+		  <li id='li-home' class="active"><a href="#home" style='color:white;' onclick="activemenu('home');">Home</a></li>
+		  <li id='li-about-me' ><a href="#about-me" style='color:white;' onclick="activemenu('about-me');">About Me</a></li>
+		  <li id='li-portfolio' ><a href="#portfolio" style='color:white;' onclick="activemenu('portfolio');">Portfolio</a></li>
+		  
+		</ul>
+	  </div>
+	</nav>
+</div>
+</header>
+<section id="home" class="jumbotron">
+	  <h3>Hello There</h3>
+	  <div class='row'>
+	  
+		  <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12' align="center">
+			  <br><br>
+			  
+			  Hey !!! pisssst!!!! you!!!!  OO Yes YOU!!!! Hello there Yes atlast you found me.
+			  <br><br>
+			  Hey there my name is Safeer Ahmed Mian welcome to explore something about me. Hope YOU ARE NOT JUDGING ME!!!<br><br>
+			  SO then Let's begin I am a Pakistani who was born in Saudia Arabia and now studying in Germany so yes my friend I am International Sensation<br><br>
+			  I am friend am a fun loving person who jokes alot this is due to the fact that I lived in Pakistan and we have atleast two theater comedy shows in a month and I was watching a lot of them so now I cant help it.
+			  <br><br>
+			  I am currently studying Computer Linguistics going to start working on my thesis soon on Finite State Transducers. Yes quite interesting to implement. On the other hand I like to explore and learn new techniques and languages so that means you can hire me for a job or for a university project or assignment and I would gladly like to help you out contact details are given in the bottom of the page and please refer to the potfolio section if you are having any doubts about me. 
+			  <br><br>
+			  Till then enjoy and I hope I hear from you soon.  
+		  </div>
+		  <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center'>
+			  <img src="pic.jpg">
+		  </div>
+	  </div>
+</section>
+<section id="about-me" class="jumbotron" style='display:none;'>
+	  <h3>About Me</h3>
+	  <div class='row'>
+	  
+		  <div class='col-lg-8 col-md-8 col-sm-12 col-xs-12' align="center">
+			  
+			  <br><br>
+			  I was born in Dammam city of beautiful Saudia Arabia ("ana kalim Arabi shawiya shawiya"). I lived in Saudia Arabia for good 11 years. After this amazing life I moved to Lahore city of Pakistan to persue my Matriculation from English Grammar School .During this time of my life i got intreiged with computers and decideed to study Computer Science so I did my Intermediate Studies in Computer Science (I.C.S) from Punjab Group Of Colleges Lahore . During this phase of my life I learned that I am actually quite good in some computer games so I started to play Counter Strike and within a two years I was ranked in top players in whole Pakistan so I stoped studying and started to playing seriously to become the best player in Pakistan due to the respect and fame I was getting in Pakistan. I opened a Gaming Zone named "FATALITY" and was having success but suddenly the amount of loadsheding and costs became high and I lost everything so I decided to go back to education.<br><br>
+
+			  Coming back to the good part I got the admission in University Of Tuebingen and this was a dream come true. Now I am Studying Computation Linguistics. You might be wondering why computer linguistics so there are two reasons <br>
+			  1) Computer Science was in German.<br>
+			  2) Ever wonder which was the very first language spoken by the people.<br>
+			  Exactly, Here you go I hope now I am not making you think about start studying again or change ur field if you are almost done.
+			  <br><br>
+			  Currently I am studying about Finite State Transducers as my Thesis Implementing and improving 	
+			  <br><br>	
+			  Looking back at my life the failure I suffered taught me study is the only thing which can help you in a long run and now I know what failiur feels like and never want to experience it again. Now I am almost done with my degree and hopefully will have a stable job now . 
+			  <br><br>
+			  Damn it was a rollercoaster ride			   
+		  </div>
+		  <div class='col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center' >
+			  <img src="life.jpg">
+		  </div>
+	  </div>
+</section>
+<section id="portfolio" class="jumbotron" style='display:none;'>
+	  <img src="technology.jpg" id="tech">
+	  <h2>Here you can find all the projects I have done Enjoy!</h2>
+	  <div class="languages row">
+    		<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'> <a class='btn btn-default btn-lg' href="#lang-java">JAVA</a></div>
+    		<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'> <a class='btn btn-default btn-lg' href="#lang-python">PYTHON</a></div>
+    		<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'> <a class='btn btn-default btn-lg' href="#lang-cpp">C++</a></div>
+    		<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'> <a class='btn btn-default btn-lg' href="#lang-web">WEB-DEVELOPMENT</a></div>
+  	  </div>
+  	  <div class="projects">
+  	  <div class="java" id='lang-java'>
+  	    <h1>JAVA</h1>
+  	  	<a href="#typing-details" data-toggle="collapse">Typing Maniac Clone</a>
+		<div id="typing-details" style='text-align:center;' class="collapse">
+			<div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='margin:1% 25%; border: 1px solid gold; background-color:#ffffe0;' >
+				Typing Maniac Clone details go here
+			</div>
+		</div>
+  	  	<br>
+  	  	<a href="#">NotePad</a>
+  	  	<br>
+  	  </div>
+  	  <div class="python" id='lang-python'>
+  	  	<h1>PYTHON</h1>
+  	  	<a href="#">Automatic Literary Genre Identification</a>
+  	  	<br>
+  	  	<a href="#">Native Language Identifier</a>
+  	  	<br>
+  	  </div>
+  	  <div class="cpp" id='lang-cpp'>
+  	  	<h1>C++</h1>
+  	  	<a href="#">Snakes And Ladder</a>
+  	  	<br>
+  	  	<a href="#">NotePad</a>
+  	  	<br>
+  	  </div>
+  	  <div class="web" id='lang-web'>
+  	  	<h1>WEB</h1>
+  	  	<a herf="#">BootStrap</a>
+  	  </div>
+  	  </div>
+</section>
+<footer>
+	<div id="f">
+		<h3 align="center">Email: safeeramian@gmail.com</h3>
+		<h3 align="center">Phone: +49(0)15211723980</h3>
+	</div>
+</footer>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+
+
+</BODY>
+</html>

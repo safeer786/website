@@ -1,0 +1,127 @@
+#tech
+{
+	display: flex;
+    flex-wrap: wrap;
+	padding: 0px;
+	margin:auto;
+	text-align: center;
+	height: 70%;
+	width: 70%;
+	}
+.jumbotron 
+{
+/*background-color: white;*/
+/*background: url("background.jpg");/*enter the relative url of the background image file here */
+	background-color:transparent !important;
+}
+header h1{
+	color: white;
+
+}
+header, footer
+{
+	background-color: #461D7C;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: block;
+	color: white;
+}
+body{
+/*	background-image: url("background.jpg");*/
+  margin: 0;
+}
+#f
+{
+	margin: 0px;
+}
+h1
+{
+	margin: auto;
+	text-align: center;
+	padding: 0px;
+
+}
+header h1
+{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h2
+{
+	margin-top:5px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.languages {
+  border: 1px solid #000;
+  padding:30px; 	
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.languages a.btn-default{
+	width:75%;
+	margin-top: 1em;
+	margin-bottom:1em;
+}
+
+@media screen and (max-width:490px){
+
+	.languages a.btn-default{
+		width:100%!important;
+		margin-top: 1em;
+		margin-bottom:1em;
+	}
+}
+
+/*.languages a {
+  background-color: #9DD1F1;
+  border-radius: 3px;
+  color: #004E89;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  /*margin: 10px;*/
+  /*padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}*/
+
+div.projects > div , div.projects > div a{
+margin:0px;
+  font-size: 25px; 
+  text-align: center;
+  color:black;
+}
+
+/*.java a,  .python a, .cpp a{
+  margin:0px;
+  font-size: 25px; 
+  text-align: center;
+}
+
+.python a {
+	margin:0px;
+  font-size: 25px;
+  text-align: center;
+
+}
+.cpp a {
+	margin:0px;
+  font-size: 25px;
+  text-align: center;
+
+}
+.web a {
+	margin:0px;
+  font-size: 25px;
+  text-align: center;
+
+}*/
